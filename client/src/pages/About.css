@@ -1,0 +1,21 @@
+.about-us {
+    display: flex;
+    flex-wrap: wrap; /* Allow content to wrap if necessary */
+    padding: 2rem;
+  }
+  
+  .about-image {
+    flex: 1; /* Make image take up half the space */
+    max-width: 50%; /* Set a maximum width for responsiveness */
+    object-fit: cover; /* Crop image to fit within container */
+  }
+  
+  .about-content {
+    flex: 1; /* Make content take up half the space */
+    padding: 1rem;
+  }
+  
+  .about-content p {
+    margin-bottom: 1rem;
+  }
+  

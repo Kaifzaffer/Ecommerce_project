@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; /* Change to your preferred font family */
+  }
+  
+  /* Layout Styles */
+  .main {
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  .category {
+    display: flex;
+    flex: 0 0 20%; /* Set width to 20% for the category section */
+    padding: 15px; /* Adjust padding as needed */
+    border-right: 1px solid #ddd; /* Add a border to separate sections */
+    flex-direction: column;
+  }
+  
+  .products {
+    flex: 1; /* Allow remaining space for product section */
+    padding: 15px; /* Adjust padding as needed */
+  }
+  .product-rows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute items evenly */
+  }
+  
+  .product-item {
+    width: calc(33.33% - 10px); /* Set width for 3 items per row */
+    margin: 5px; /* Add margin for spacing */
+    border: 1px solid #ddd; /* Add a subtle border for each product */
+    padding: 10px; /* Add padding for content */
+  }
+ 
+    .product-item img {
+        width: 100%; /* Adjust the percentage as needed */
+        height: auto; /* Automatically adjust height based on aspect ratio */
+      }
+      .product-rows {
+        /* Existing styles for product display */
+      }
+      
+      .pagination {
+        display: flex; /* Center the button horizontally */
+        justify-content: center;
+        margin: 2rem 0; /* Margin above and below */
+        padding: 1rem 2rem; /* Padding for spacing */
+        border: 1px solid #ddd; /* Optional border for visual separation */
+        border-radius: 4px; /* Rounded corners for a nicer look */
+      }
+      
+      .pagination button {
+        background-color: #ffc107; /* Change background color for "Load More" button */
+        color: #333; /* Change text color */
+        border: none; /* Remove default button border */
+        padding: 0.5rem 1rem; /* Adjust padding as needed */
+        border-radius: 4px; /* Rounded corners for consistency */
+        cursor: pointer; /* Indicate clickable behavior */
+      }
+      
+  
+  

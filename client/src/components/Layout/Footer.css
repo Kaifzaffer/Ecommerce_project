@@ -1,0 +1,33 @@
+footer {
+    background-color: #f5f5f5; /* Light gray background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+    padding: 1rem 2rem;
+    display: flex; /* Allow for horizontal alignment */
+    justify-content: space-between; /* Distribute elements evenly */
+    align-items: center; /* Center elements vertically */
+    color: #333; /* Dark text color */
+  }
+  
+  footer h4 {
+    font-weight: bold;
+    margin: 0; /* Remove default margin for better spacing */
+  }
+  
+  footer a {
+    color: inherit; /* Inherit text color from footer */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.2s ease; /* Smooth color transition on hover */
+    margin-left: 1rem; /* Add spacing between links */
+  }
+  
+  footer a:hover {
+    color: #007bff; /* Blue color on hover */
+  }
+  
+  /* Optional for responsive text sizing on smaller screens */
+  @media (max-width: 768px) {
+    footer h4 {
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+  }
+  

@@ -1,0 +1,36 @@
+.page-not-found {
+    text-align: center; /* Center content horizontally */
+    padding: 5rem; /* Add space around content */
+  }
+  
+  .page-not-found h1 {
+    font-size: 5rem; /* Large 404 text */
+    font-weight: bold; /* Emphasize error code */
+    margin-bottom: 1rem; /* Add some spacing below */
+  }
+  
+  .page-not-found h2 {
+    font-size: 2rem; /* Moderate heading size */
+    margin-bottom: 1rem; /* Add some spacing below */
+  }
+  
+  .page-not-found p {
+    font-size: 1rem; /* Regular paragraph size */
+    line-height: 1.5; /* Adjust line spacing for readability */
+    margin-bottom: 1rem; /* Add some spacing below */
+  }
+  
+  .page-not-found a {
+    background-color: #007bff; /* Blue background for button */
+    color: white; /* White text for button */
+    padding: 0.5rem 1rem; /* Add padding for button */
+    border: none; /* Remove border from button */
+    border-radius: 4px; /* Add rounded corners to button */
+    text-decoration: none; /* Remove underline from link */
+    transition: background-color 0.2s ease; /* Add hover effect */
+  }
+  
+  .page-not-found a:hover {
+    background-color: #0067cc; /* Darken blue on hover */
+  }
+  

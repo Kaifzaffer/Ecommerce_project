@@ -1,0 +1,36 @@
+/* General layout and spacing */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .checkout-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .row {
+    margin-bottom: 20px;
+  }
+  
+  .col-md-6 {
+    flex-basis: 48%;
+  }
+  
+  /* Billing details section */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  /* Order summary section */
+  .cart-item {
+    border: 1px solid #ddd;
+    padding: 10px
+  }  

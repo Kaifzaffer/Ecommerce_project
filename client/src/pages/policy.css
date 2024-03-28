@@ -1,0 +1,27 @@
+.policy {
+    padding: 2rem;
+    max-width: 700px; /* Adjust width based on your design */
+    margin: 0 auto; /* Center page horizontally */
+  }
+  
+  .policy h2 {
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .policy h3 {
+    font-size: 1.25rem; /* Adjust font size */
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .policy p {
+    line-height: 1.5; /* Adjust line spacing for readability */
+    margin-bottom: 1rem;
+  }
+  
+  section {
+    margin-bottom: 2rem; /* Add space between sections */
+  }
+  
