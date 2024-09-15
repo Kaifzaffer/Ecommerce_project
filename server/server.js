@@ -16,7 +16,9 @@ connectDB();
 
 const app = express()
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin: 'https://ecommerce-project-lovat-xi.vercel.app/', 
+  }));
 app.use(morgan("dev"))
 
 
