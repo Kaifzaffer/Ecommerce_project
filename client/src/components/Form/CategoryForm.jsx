@@ -1,9 +1,4 @@
-// import React from 'react'
-
-const CategoryForm = ({handleSubmit, value, setValue}) => {
-
-
-
+const CategoryForm = ({ handleSubmit, value, setValue }) => {
   return (
     <>
       <form onSubmit={handleSubmit}>
